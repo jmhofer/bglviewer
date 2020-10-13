@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework> 
+
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <Compile Include="Model.fs" />
+    <Compile Include="BglUtils.fs" />
+    <Compile Include="BglAirport.fs" />
+    <Compile Include="Db.fs" />
+    <Compile Include="BglParsing.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="mod_spatialite" Version="4.3.0.1" />
+    <PackageReference Include="sqlite" Version="3.13.0" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.113.1" />
+  </ItemGroup>
+</Project>

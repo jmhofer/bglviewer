@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BGLReader": {
+      "commandName": "Project",
+      "commandLineArgs": "meep"
+    }
+  }
+}
